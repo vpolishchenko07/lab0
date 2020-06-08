@@ -1,0 +1,60 @@
+#map {
+  position: absolute;
+  width: 1200px;
+  height: 500px;
+  left: 16%;
+  top:13%;
+  border-radius: 30px;
+  border-style: ridge;
+  border-color: rgb(8, 71, 56); 
+}
+#display{
+  width: 200px;
+  height: 500px;
+  position: absolute;
+  top:13%;
+  left:3%;
+  border: solid;
+  border-radius: 30px;
+  border-style: ridge;
+  border-color: rgb(9, 58, 54); 
+  font-family: sans-serif;
+  font-weight: solid;
+  font-size: 1.6vw;
+  color: #10b475;
+  background: rgb(2, 28, 29);
+}
+#bloks{ 
+  line-height: 1.6;
+  color: #ffffff;
+  box-sizing: border-box;
+  display: block;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+  position: relative;
+  left: 50%;
+  top:5%;
+  transform: translate(-50%, -50%);
+  float: left;
+}
+#Block_1,#Block_2,#Block_3{
+  font-size: 2vw;
+  background: rgb(14, 212, 219);
+  color: #17362a;
+  border-radius: 1vw;
+  padding: 0 1vw 1vw 1vw;
+  display: inline-block;
+}
+#Block_3{
+  font-size: 0.8vw;
+  background: rgb(1, 20, 20);
+  color: #10b475;
+  border-radius: 1vw;
+  padding: 0 1vw 1vw 1vw;
+  display: inline-block;
+}
+html, body {
+  background: rgb(0, 0, 0);
+  height: 100%;      
+}
